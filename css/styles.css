@@ -1,0 +1,120 @@
+body{
+    font-family: 'Fira Sans', sans-serif;
+    background-color: #F0ECEE;
+    padding: 10px 10px 10px 10px;
+}
+
+h1{
+    font-weight: 600;
+    font-size: 200%;
+}
+
+p{
+    color: #88898B;
+    font-weight: 300;
+    font-size: 90%;
+}
+
+span{
+    color: #FF4850;
+}
+
+section{
+    padding: 20px 0px;
+}
+
+#nav{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    color: #88898B;
+    font-weight: 300;
+    font-size: 110%;
+}
+
+#nav li:first-child {
+    margin-right: auto;
+    padding-bottom: 20px;
+}
+
+#nav li a{
+    text-decoration: none;
+    color: #88898B;
+}
+
+#nav li a:hover{
+    color: #FF4850;
+}
+
+#nav .adopt{
+    color: #000000;
+    font-weight: 400;
+    font-size: 130%;
+    margin: 0px 0px 20px 0px;
+}
+
+.button{
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 110%;
+    font-weight: 300;
+    color: white;
+    background-color: #FF4850;
+    margin-top: 0px;
+    border-radius: 5px;
+    border: none;
+    width: 100%;
+}
+
+.button:hover{
+    color: #FF4850;
+    background-color: #ccc;
+}
+
+.contact{
+    margin-top: 20px;
+    padding: 14px 10px;
+}
+
+.find{
+    padding: 14px 40px;
+
+}
+
+/* For desktop*/
+@media only screen and (min-width: 768px) {
+    body{
+        background-image: url("bulldog.jpg");
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+        padding: 20px 60px 20px 60px;
+    }
+
+    .contact{
+        margin-top: 0px;
+        width: auto;
+    }
+
+    .find{
+        margin-top: 10px;
+        width: auto;
+    }
+
+    #nav{
+        display: flex;
+        align-items: center;
+    }
+
+    #nav li a{
+        padding: 0px 20px 0px 0px;
+    }
+
+    section{
+        padding: 120px 0px;
+        max-width: 550px;
+    }
+
+    p{
+        font-size: 120%;
+    }
+}
